@@ -1,0 +1,78 @@
+@media only screen and (max-width:1024px) {
+    .carousel-item {
+        height: auto;
+    }
+
+    .carousel-caption h1 {
+        font-size: 30px;
+    }
+
+    .carousel-caption {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .custom-navbar {
+        padding: 0px 20px;
+    }
+}
+
+
+@media only screen and (max-width:767.98px) {
+    .carousel-caption h1 {
+        font-size: 20px;
+    }
+
+    .carousel-caption h4 {
+        font-size: 15px;
+    }
+
+    a.float {
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        bottom: 120px;
+        right: 17px;
+    }
+
+    .return-top {
+        right: 17px;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    footer ul {
+        list-style-type: none;
+    }
+}
+
+@media only screen and (max-width:575.98px) {
+    .carousel-caption {
+        top: 20%;
+    }
+
+    .technology,
+    .happy-clients,
+    .our-work-section,
+    footer,
+    .our-services-section,
+    .about-us-section {
+        padding-inline: 15px;
+    }
+
+
+}
+
+@media only screen and (max-width:424px) {
+    h1 {
+        font-size: 35px;
+    }
+
+
+    .our-work-section .value {
+        font-size: 28px;
+    }
+}

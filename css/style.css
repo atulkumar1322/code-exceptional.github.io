@@ -1,0 +1,243 @@
+body {
+    font-family: 'Lora', serif;
+}
+
+.custom-navbar {
+    background-color: rgb(233 233 233);
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.navbar-brand img {
+    transform: scale(1.7);
+}
+
+.nav-item .nav-link {
+    font-weight: 600
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    height: fit-content;
+    padding: 30px;
+    width: 60%;
+}
+
+.carousel-item {
+    height: 650px;
+}
+
+.about-us-section {
+    padding: 40px;
+}
+
+.about-us-section h1 {
+    display: inline;
+}
+
+.about-us-section h1:hover {
+    text-decoration: underline;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.our-services-section {
+    background-color: #1A4C63;
+    padding: 40px;
+}
+
+.our-services-section h1,
+.our-services-section h4 {
+    color: white;
+    text-align: center;
+}
+
+.letter-spacing-2 {
+    letter-spacing: 2px;
+}
+
+.our-services-section h1:hover {
+    text-decoration: underline;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.custom-card {
+    padding-top: 60px;
+    height: 500px;
+    min-height: 500px;
+    max-height: 500px;
+    margin-bottom: 25px;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
+}
+
+.custom-card .card-text {
+    text-align: justify;
+}
+
+.custom-card .card-body {
+    text-align: center;
+}
+
+.custom-card .card-body p {
+    color: #646464;
+    font-size: 14px;
+}
+
+.custom-card img {
+    margin: auto;
+}
+
+.technology {
+    text-align: center;
+    padding: 40px;
+    background-color: rgb(233 233 233 / 70%);
+}
+
+.technology-icon {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.technology .row {
+    gap: 25px 0px;
+}
+
+.technology-icon img {
+    width: 70px;
+    height: 70px;
+}
+
+.our-work-section {
+    background-color: #6161e5;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+.our-work-section .value {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+footer {
+    padding: 40px;
+    background-color: #0d1117;
+    color: white;
+    font-size: 14px;
+}
+
+footer ul {
+    padding-left: 18px;
+}
+
+footer Ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+a.float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 120px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 0px 14px 3px #999;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    text-decoration: none;
+    color: white;
+}
+
+.my-float {
+    margin-top: 16px;
+}
+
+.return-top {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #843bee;
+    bottom: 30px;
+    right: 40px;
+    border-radius: 50%;
+    margin-top: 20px;
+    z-index: 100;
+    cursor: pointer;
+}
+
+.return-top i {
+    color: white;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    /* transition: all 0.3s ease; */
+    animation: totop 1s forwards ease-in-out infinite;
+}
+
+.return-top i:hover {
+    transform: translateY(-7px);
+}
+
+.happy-clients {
+    background-color: #1A4C63;
+    padding: 40px;
+}
+
+.happy-clients h1,
+.happy-clients h4 {
+    color: white;
+    text-align: center;
+}
+
+.happy-clients-div {
+    background-color: white;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+
+}
+
+.happy-clients .row {
+    gap: 25px 0px;
+}
+
+
+@keyframes totop {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-5px);
+    }
+
+    75% {
+        transform: translateY(-10px);
+    }
+}
